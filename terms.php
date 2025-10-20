@@ -1,0 +1,180 @@
+<?php
+require_once 'includes/functions.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Gamenda</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:wght@400;500;700&display=swap');
+        .font-pixel { font-family: 'Press Start 2P', cursive; }
+        .font-main { font-family: 'Ubuntu', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
+        }
+    </style>
+</head>
+<body class="font-main bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 bg-opacity-90 backdrop-filter backdrop-blur-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <a href="index.php" class="font-pixel text-xl text-purple-400">GAMENDA</a>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="index.php" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">Home</a>
+                            <a href="categories.php" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">Categories</a>
+                            <a href="about.php" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero-gradient">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-pixel mb-6 text-white">
+                TERMS OF SERVICE
+            </h1>
+            <p class="text-xl text-purple-100">
+                Last updated: December 1, 2023
+            </p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="bg-gray-800 rounded-2xl p-8 md:p-12">
+            <div class="prose prose-invert prose-purple max-w-none">
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">1. Acceptance of Terms</h2>
+                    <p class="text-gray-300 mb-4">
+                        By accessing and using Gamenda ("the Service"), you accept and agree to be bound by the terms and provision of this agreement.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">2. Use License</h2>
+                    <p class="text-gray-300 mb-4">
+                        Permission is granted to temporarily download one copy of the materials (games) on Gamenda's website for personal, non-commercial transitory viewing only.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2 ml-4">
+                        <li>Modify or copy the materials</li>
+                        <li>Use the materials for any commercial purpose</li>
+                        <li>Attempt to decompile or reverse engineer any software contained on Gamenda</li>
+                        <li>Remove any copyright or other proprietary notations from the materials</li>
+                        <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+                    </ul>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">3. Disclaimer</h2>
+                    <p class="text-gray-300 mb-4">
+                        The materials on Gamenda's website are provided on an 'as is' basis. Gamenda makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">4. Limitations</h2>
+                    <p class="text-gray-300 mb-4">
+                        In no event shall Gamenda or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Gamenda's website.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">5. Accuracy of Materials</h2>
+                    <p class="text-gray-300 mb-4">
+                        The materials appearing on Gamenda's website could include technical, typographical, or photographic errors. Gamenda does not warrant that any of the materials on its website are accurate, complete or current.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">6. Links</h2>
+                    <p class="text-gray-300 mb-4">
+                        Gamenda has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Gamenda of the site. Use of any such linked website is at the user's own risk.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">7. Modifications</h2>
+                    <p class="text-gray-300 mb-4">
+                        Gamenda may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-purple-400 mb-4">8. Governing Law</h2>
+                    <p class="text-gray-300">
+                        These terms and conditions are governed by and construed in accordance with the laws of the United States and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
+                    </p>
+                </section>
+
+                <div class="mt-12 p-6 bg-gray-700 rounded-lg">
+                    <h3 class="text-lg font-bold text-white mb-2">Contact Us</h3>
+                    <p class="text-gray-300">
+                        If you have any questions about these Terms of Service, please contact us at:
+                        <a href="mailto:legal@gamenda.com" class="text-purple-400 hover:text-purple-300">legal@gamenda.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-pixel text-white text-lg mb-4">GAMENDA</h3>
+                    <p class="text-gray-400">
+                        Your ultimate gaming destination with thousands of free and premium games across all platforms.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="terms.php" class="text-purple-400 font-medium">Terms of Service</a></li>
+                        <li><a href="privacy.php" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="cookies.php" class="text-gray-400 hover:text-white">Cookie Policy</a></li>
+                        <li><a href="dmca.php" class="text-gray-400 hover:text-white">DMCA</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.php" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="categories.php" class="text-gray-400 hover:text-white">Categories</a></li>
+                        <li><a href="about.php" class="text-gray-400 hover:text-white">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">Email: contact@gamenda.com</li>
+                        <li class="text-gray-400">Support: support@gamenda.com</li>
+                    </ul>
+                    <div class="mt-4">
+                        <p class="text-gray-400 text-sm">
+                            © 2023 Gamenda. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
