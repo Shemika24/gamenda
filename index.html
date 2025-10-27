@@ -251,8 +251,8 @@
                             <h3 class="text-2xl md:text-3xl font-bold mb-4">Cyber Revolution</h3>
                             <p class="text-gray-200 mb-6 max-w-md mx-auto">Immerse yourself in a futuristic open world where your choices shape the destiny of humanity.</p>
                             <div class="flex justify-center space-x-4 mb-6">
-                                <span class="platform-badge platform-pc">PC [US, BR, PT]</span>
-                                <span class="platform-badge platform-ps">PS5 [US, BR]</span>
+                                <span class="platform-badge platform-pc">PC [US, BR, PT, MZ]</span>
+                                <span class="platform-badge platform-ps">PS5 [US, BR, MZ]</span>
                                 <span class="platform-badge platform-mobile">Mobile [Global]</span>
                             </div>
                             <a href="https://viikqoye.com/dc/?blockID=398500" class="download-btn inline-flex items-center" target="_blank">
@@ -320,7 +320,7 @@
     </div>
 
     <script>
-        // Game data with country filtering
+        // Game data with country filtering - Moçambique (MZ) incluído em todos os jogos
         const gamesData = {
             "games": [
                 {
@@ -330,7 +330,7 @@
                     "shortDescription": "First-person shooter with intense combat",
                     "genre": ["action"],
                     "platform": ["PC", "PS5", "Mobile"],
-                    "countries": ["US", "BR", "PT", "MX"],
+                    "countries": ["US", "BR", "PT", "MX", "MZ"],
                     "releaseDate": "2023-05-15",
                     "developer": "Action Studios",
                     "rating": 4.8,
@@ -344,7 +344,7 @@
                     "shortDescription": "Explore magical worlds and solve puzzles",
                     "genre": ["adventure"],
                     "platform": ["PC", "PS5", "Switch"],
-                    "countries": ["US", "CA", "UK", "AU"],
+                    "countries": ["US", "CA", "UK", "AU", "MZ"],
                     "releaseDate": "2023-03-22",
                     "developer": "Adventure Games Inc",
                     "rating": 4.5,
@@ -358,7 +358,7 @@
                     "shortDescription": "Epic RPG with deep character customization",
                     "genre": ["rpg"],
                     "platform": ["PC", "PS5", "Mobile"],
-                    "countries": ["BR", "PT", "ES", "IT"],
+                    "countries": ["BR", "PT", "ES", "IT", "MZ"],
                     "releaseDate": "2023-07-10",
                     "developer": "RPG Masters",
                     "rating": 4.9,
@@ -372,7 +372,7 @@
                     "shortDescription": "Build empires and conquer your enemies",
                     "genre": ["strategy"],
                     "platform": ["PC", "Mobile"],
-                    "countries": ["US", "BR", "MX", "AR"],
+                    "countries": ["US", "BR", "MX", "AR", "MZ"],
                     "releaseDate": "2023-02-28",
                     "developer": "Strategy Labs",
                     "rating": 4.7,
@@ -386,7 +386,7 @@
                     "shortDescription": "Realistic sports simulation with multiple disciplines",
                     "genre": ["sports"],
                     "platform": ["PC", "PS5", "Mobile", "Switch"],
-                    "countries": ["US", "CA", "UK", "DE"],
+                    "countries": ["US", "CA", "UK", "DE", "MZ"],
                     "releaseDate": "2023-06-05",
                     "developer": "Sports Interactive",
                     "rating": 4.3,
@@ -400,7 +400,7 @@
                     "shortDescription": "High-speed racing with realistic physics",
                     "genre": ["racing"],
                     "platform": ["PC", "PS5", "Mobile"],
-                    "countries": ["US", "BR", "PT", "ES"],
+                    "countries": ["US", "BR", "PT", "ES", "MZ"],
                     "releaseDate": "2023-08-18",
                     "developer": "Speed Studios",
                     "rating": 4.6,
@@ -414,7 +414,7 @@
                     "shortDescription": "Futuristic open-world adventure",
                     "genre": ["action", "adventure"],
                     "platform": ["PC", "PS5", "Mobile"],
-                    "countries": ["US", "CA", "UK", "AU"],
+                    "countries": ["US", "CA", "UK", "AU", "MZ"],
                     "releaseDate": "2023-09-12",
                     "developer": "Cyber Studios",
                     "rating": 4.8,
@@ -428,7 +428,7 @@
                     "shortDescription": "Medieval fantasy RPG with epic storyline",
                     "genre": ["rpg", "adventure"],
                     "platform": ["PC", "PS5", "Switch"],
-                    "countries": ["BR", "PT", "ES", "IT"],
+                    "countries": ["BR", "PT", "ES", "IT", "MZ"],
                     "releaseDate": "2023-04-20",
                     "developer": "Fantasy Works",
                     "rating": 4.7,
@@ -442,7 +442,7 @@
                     "shortDescription": "Competitive multiplayer fighting game",
                     "genre": ["fighting", "action"],
                     "platform": ["PC", "PS5", "Mobile", "Switch"],
-                    "countries": ["US", "BR", "MX", "CO"],
+                    "countries": ["US", "BR", "MX", "CO", "MZ"],
                     "releaseDate": "2023-07-30",
                     "developer": "Fight Club Games",
                     "rating": 4.4,
@@ -456,7 +456,7 @@
                     "shortDescription": "Intergalactic exploration and survival",
                     "genre": ["adventure", "strategy"],
                     "platform": ["PC", "PS5", "Mobile"],
-                    "countries": ["US", "CA", "UK", "DE"],
+                    "countries": ["US", "CA", "UK", "DE", "MZ"],
                     "releaseDate": "2023-05-08",
                     "developer": "Space Labs",
                     "rating": 4.6,
@@ -466,7 +466,7 @@
             ]
         };
 
-        // Country code to name mapping
+        // Country code to name mapping - Moçambique adicionado
         const countryNames = {
             "US": "United States",
             "BR": "Brazil",
@@ -479,7 +479,8 @@
             "IT": "Italy",
             "DE": "Germany",
             "AR": "Argentina",
-            "CO": "Colombia"
+            "CO": "Colombia",
+            "MZ": "Moçambique"
         };
 
         // User location
